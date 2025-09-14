@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header */
+.header {
+    background: #1e56a0;
+    padding: 10px;
+}
+
+.nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.nav__logo img {
+    height: 40px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav__list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    color: #1e56a0;
+}
+
+.hero__logo {
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #1e56a0;
+    color: white;
+    padding: 20px 50px;
+    font-size: 15px;
+}
+
+.footer-center {
+    background-color: rgb(54, 1, 161);
+    color: #ffffff;
+    padding: 37px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.footer-right {
+    text-align: right;
+}
